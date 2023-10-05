@@ -1,0 +1,98 @@
+.block {
+  position: relative;
+  margin-top: 53px;
+  border: 1px solid #e7e7e7;
+  padding: 30px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 1135px;
+  gap: 32px;
+  height: max-content;
+  background-color: #F9FAFB;
+
+  &_input {
+    width: 649px;
+  }
+
+  &_search * {
+    height: 36px !important;
+  }
+
+  &_header {
+    display: flex;
+    justify-content: space-between;
+
+    h2 {
+      color: #424F5E;
+      font-family: Futura PT, 'sans-serif';
+      font-size: 26px;
+      font-weight: 600;
+      line-height: 44px;
+    }
+
+    &_left {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+
+      svg {
+        color: #a3a3a3;
+      }
+    }
+  }
+
+  &_btn {
+    background-color: #27cc73;
+    color: #ffff;
+    height: 36px;
+
+    span {
+      font-size: 18px;
+    }
+
+    &_grey {
+      border-radius: 10px;
+      border: 1px solid #C1C1CB;
+      margin-right: 5px;
+      height:30px;
+
+      :hover {
+        color: #5A57FF;
+        border-color: #5A57FF;
+      }
+
+      span {
+        color: #9494A0;
+        text-align: center;
+        font-family: Futura PT, 'sans-serif';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+      }
+    }
+
+  }
+
+  &_image {
+    width: 64px;
+    height: 64px;
+  }
+
+  &_name {
+    color: #424F5E;
+    font-family:  Futura PT, 'sans-serif';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  &_email {
+    color: #9494A0;
+    margin-left: 11px;
+  }
+}
